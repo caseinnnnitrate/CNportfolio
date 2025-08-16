@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #7a480480;
+  background: #ffffff00;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -1291,3 +1291,11 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+.display-tc.js-fullheight {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  text-align: center;
+}
