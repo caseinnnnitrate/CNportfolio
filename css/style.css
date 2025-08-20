@@ -162,9 +162,11 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-right: -30px;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-header .display-tc h1,
-  .fh5co-cover .display-tc h1 {
-    font-size: 34px;
+  #fh5co-header,
+  .fh5co-cover {
+    background-attachment: scroll !important; /* Fixes the invisible bg issue */
+    height: 100vh !important; /* Ensure it takes full screen height */
+  }
   }
   #fh5co-header .display-tc h1 span:before,
   .fh5co-cover .display-tc h1 span:before {
